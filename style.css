@@ -1,0 +1,91 @@
+/* Ieteicams ir mainīt tikai fontu un krāsas, bet vari eksperimentēt ar citām vērtībām. :) */
+
+body, html, .container{
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: arial;
+}
+
+#header{
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+}
+
+.section{
+  background-color: #444444;
+  width: 90%;
+  height: 10%;
+  margin: 30px;
+  text-align: center;
+  color:#ffffff;
+  float: left;
+}
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 5px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: #2b2b2b;
+    padding: 10px;
+    color: #ffffff;
+    float: left;
+    width: 90%;
+    margin: 10px;
+  }
+
+  .image{
+    border: 5px solid #444444;
+    background-color: #444444;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 3px;
+    background-color: #444444;
+    color: white;
+    float:left;
+    width: 100%;
+  }
